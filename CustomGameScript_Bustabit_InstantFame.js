@@ -1,12 +1,12 @@
 var config = {
-  numberOfGames: { value: 50000, type: 'number', label: '# of Games Before Shutdown' },
+  numberOfGames: { value: 1000, type: 'number', label: '# of Games Before Shutdown' },
 };
 
-//Community Member: InstantFame Custom Game script.
+//Community Member: Instant Fame 1300 bit balance script.
 
 var bettingActive = false; 
-var activationNumber = 4; //activation number
-var waitCashOut = 1.33; //activation wait cashout  aka when 4 games under 1.5 occur then start betting this matrix.
+var activationNumber = 2; //activation number
+var waitCashOut = 1.2; //activation wait cashout  aka when 4 games under 1.5 occur then start betting this matrix.
 
 
 var startingBalance = userInfo.balance;
@@ -19,11 +19,11 @@ var wait=false;
 
 //Game Matrix
 let betMatrix = [
-    [50, 1.33],
-    [263, 1.33],
-    [1400, 1.33],
-    [7250, 1.33],
-    
+    [6, 1.3],
+    [38, 1.3],
+    [113, 1.5],
+    [375, 1.5],
+    [750, 1.8],
 ];
 
 if(activationNumber == 0)
