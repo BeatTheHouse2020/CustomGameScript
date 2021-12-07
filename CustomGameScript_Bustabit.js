@@ -117,6 +117,9 @@ function onGameEnded() {
       currentGame=0;
       bettingActive = false;
 
+    
+      if(activationNumber == 0)
+        bettingActive = true;
       //log('config bet is', config.baseBet.value);
       //log('current bet is', currentBet);
 
